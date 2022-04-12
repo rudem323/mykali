@@ -21,7 +21,7 @@ if 'Kali' in release:
                            'apt-transport-https', 'curl', 'filezilla', 'meld', 'ncat', 'net-tools',
                            'tmux', 'bash-completion', 'ieee-data', 'python3-netaddr',
                            'ruby-full', 'powercat', 'cewl', 'nbtscan', 'tree', 'upx-ucl',
-                           'exe2hexbat', 'shellter', 'grc', 'flameshot', 'sublime-text']
+                           'exe2hexbat', 'shellter', 'grc', 'flameshot', 'stow']
 
     # These kali packages will be removed
     packages_to_remove = []
