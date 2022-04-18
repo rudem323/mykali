@@ -38,15 +38,9 @@ if 'Kali' in release:
     # export GOROOT=/usr/lib/go
     # export GOPATH=$HOME/go
     # export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-    #golang_install_directory = '/opt'
-    #golang_modules_to_install = [
-    #                            'github.com/lc/gau@latest',
-    #                            'github.com/hakluke/hakrawler@latest',
-    #                            'github.com/hahwul/dalfox@latest',
-    #                            'github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest',
-    #                            'github.com/Shopify/kubeaudit@latest',
-    #                            'github.com/tomnomnom/httprobe@latest'
-    #                            ]
+    golang_install_directory = '/opt'
+    golang_modules_to_install = [
+                                ]
 
     # These git repositories will be synced to the 'external repo' directory
     external_tools_directory = '/opt'
